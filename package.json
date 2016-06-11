@@ -1,0 +1,25 @@
+{
+  "name": "codenames",
+  "version": "1.0.0",
+  "description": "Site for implementing codenames card game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js -e js,html,css,less,json,txt --ignore public/dist/",
+    "postinstall": "bleh build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bleh": "^1.1.0",
+    "browserify": "^13.0.1",
+    "express": "^4.13.4",
+    "handlebars": "^4.0.5",
+    "less": "^2.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.9.2"
+  },
+  "private": true,
+  "browserifyCommonDependencies": []
+}
